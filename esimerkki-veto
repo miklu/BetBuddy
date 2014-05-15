@@ -1,0 +1,24 @@
+db.vedot.insert({
+  pvm: ISODate(),
+  booker: 'Veikkaus',
+  pelimuoto: 'Pitkäveto'
+  panos: 2,
+  kerroin: 13.5,
+  kommentti: 'Tämä osui',
+  voitto: 27,
+  kohteet: [
+    {ottelu: 'Lukko-Kalpa'},
+    {ottelu: 'HIFK-Ilves'}
+    {ottelu: 'Saipa-Jyp'}
+  ]
+})
+
+{
+"booker": "Nordicbet",
+"pelimuoto":
+"panos": 3.5,
+"kerroin": 11.68,
+"kommentti": "Joopa joo"
+"voitto": 0,
+"kohteet": [{"ottelu": "Ilves-Lukko"}]
+}
